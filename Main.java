@@ -1,10 +1,12 @@
-
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        Paciente paciente1=new Paciente();
-        paciente1.nombre="Lena Marie";
-        paciente1.edad=22;
-        paciente1.expediente="EXP202409";
-        paciente1.mostrarInformacion();
+        Entrada e1=new Entrada( "Obra de teatro", 450.00);
+        Entrada e2=new Entrada( "Danza Polinesia", 150.00);
+        e1.mostrarInformacion();
+        e2.mostrarInformacion();
+
+
     }
 }
